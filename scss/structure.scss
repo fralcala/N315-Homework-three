@@ -16,6 +16,18 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
 #app {
-  padding: 50px;
+  min-height: 100vh;
+}
+
+// fonts
+@font-face {
+  font-family: "merri-reg";
+  src: url(../assets/fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+  font-family: "merri-bold";
+  src: url(../assets/fonts/Merriweather-Bold.ttf);
 }

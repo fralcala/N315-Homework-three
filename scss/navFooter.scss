@@ -7,9 +7,14 @@ nav {
   padding: 0 20px;
 
   .logo-holder {
-    height: 100%;
-    img {
-      height: 100%;
+    a {
+      text-decoration: none;
+
+      h1 {
+        font-size: 40px;
+        font-family: merri-reg;
+        color: white;
+      }
     }
   }
 
@@ -27,4 +32,13 @@ nav {
       }
     }
   }
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

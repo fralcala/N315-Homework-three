@@ -1,0 +1,80 @@
+.products {
+  padding: 40px;
+
+  h1 {
+    font-family: merri-reg;
+  }
+
+  .new-item-section {
+    padding: 40px;
+    // background-color: rgb(0, 183, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .new-holder {
+      // background-color: brown;
+      width: 1000px;
+      font-family: merri-reg;
+
+      p {
+        font-size: 20px;
+      }
+
+      .items-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .item {
+          width: 250px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+
+          .img-holder {
+            height: 250px;
+            width: 250px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 10px;
+          }
+
+          .img1 {
+            background-image: url(../assets/images/concha.jpg);
+          }
+          .img2 {
+            background-image: url(../assets/images/donuts.jpg);
+          }
+          .img3 {
+            background-image: url(../assets/images/jes-cake.jpg);
+          }
+
+          p {
+            font-size: 13px;
+          }
+
+          .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(68, 36, 32);
+            font-family: merri-bold;
+            font-size: 17px;
+          }
+
+          .button:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+          }
+        }
+      }
+    }
+  }
+}
