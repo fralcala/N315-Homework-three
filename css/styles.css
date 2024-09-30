@@ -97,6 +97,8 @@ footer {
 }
 .home .new-item-section .new-holder p {
   font-size: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
 }
 .home .new-item-section .new-holder .items-box {
   display: flex;
@@ -130,6 +132,7 @@ footer {
 }
 .home .new-item-section .new-holder .items-box .item p {
   font-size: 13px;
+  border-bottom: none;
 }
 .home .new-item-section .new-holder .items-box .item .button {
   display: flex;
@@ -150,37 +153,41 @@ footer {
 .products {
   padding: 40px;
 }
-.products h1 {
-  font-family: merri-reg;
-}
-.products .new-item-section {
-  padding: 40px;
+.products .item-section {
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.products .new-item-section .new-holder {
+.products .item-section .item-section-holder {
   width: 1000px;
   font-family: merri-reg;
 }
-.products .new-item-section .new-holder p {
-  font-size: 20px;
+.products .item-section .item-section-holder h1 {
+  font-family: merri-reg;
 }
-.products .new-item-section .new-holder .items-box {
+.products .item-section .item-section-holder p {
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.products .item-section .item-section-holder .items-box {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
-.products .new-item-section .new-holder .items-box .item {
+.products .item-section .item-section-holder .items-box .item {
   width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 25px 2px;
 }
-.products .new-item-section .new-holder .items-box .item .img-holder {
+.products .item-section .item-section-holder .items-box .item .img-holder {
   height: 250px;
   width: 250px;
   background-position: center;
@@ -188,19 +195,38 @@ footer {
   background-size: cover;
   margin-bottom: 10px;
 }
-.products .new-item-section .new-holder .items-box .item .img1 {
+.products .item-section .item-section-holder .items-box .item .new-item1 {
   background-image: url(../assets/images/concha.jpg);
 }
-.products .new-item-section .new-holder .items-box .item .img2 {
+.products .item-section .item-section-holder .items-box .item .new-item2 {
   background-image: url(../assets/images/donuts.jpg);
 }
-.products .new-item-section .new-holder .items-box .item .img3 {
+.products .item-section .item-section-holder .items-box .item .new-item3 {
   background-image: url(../assets/images/jes-cake.jpg);
 }
-.products .new-item-section .new-holder .items-box .item p {
-  font-size: 13px;
+.products .item-section .item-section-holder .items-box .item .item1 {
+  background-image: url(../assets/images/fruit-cupcake.jpg);
 }
-.products .new-item-section .new-holder .items-box .item .button {
+.products .item-section .item-section-holder .items-box .item .item2 {
+  background-image: url(../assets/images/small-choc.jpg);
+}
+.products .item-section .item-section-holder .items-box .item .item3 {
+  background-image: url(../assets/images/strwb-choc-cake.jpg);
+}
+.products .item-section .item-section-holder .items-box .item .item4 {
+  background-image: url(../assets/images/tira-cake.jpg);
+}
+.products .item-section .item-section-holder .items-box .item .item5 {
+  background-image: url(../assets/images/trp-choc-cake.jpg);
+}
+.products .item-section .item-section-holder .items-box .item .item6 {
+  background-image: url(../assets/images/velvet-cupcake.jpg);
+}
+.products .item-section .item-section-holder .items-box .item p {
+  font-size: 13px;
+  border-bottom: none;
+}
+.products .item-section .item-section-holder .items-box .item .button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,7 +238,7 @@ footer {
   font-family: merri-bold;
   font-size: 17px;
 }
-.products .new-item-section .new-holder .items-box .item .button:hover {
+.products .item-section .item-section-holder .items-box .item .button:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 

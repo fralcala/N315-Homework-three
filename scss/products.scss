@@ -1,30 +1,34 @@
 .products {
   padding: 40px;
 
-  h1 {
-    font-family: merri-reg;
-  }
-
-  .new-item-section {
-    padding: 40px;
+  .item-section {
+    margin-bottom: 40px;
     // background-color: rgb(0, 183, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .new-holder {
+
+    .item-section-holder {
       // background-color: brown;
       width: 1000px;
       font-family: merri-reg;
+      h1 {
+        font-family: merri-reg;
+      }
 
       p {
+        border-bottom: 2px solid black;
         font-size: 20px;
+        padding-bottom: 10px;
       }
 
       .items-box {
         display: flex;
         justify-content: space-between;
+
         margin-top: 20px;
+        flex-wrap: wrap;
 
         .item {
           width: 250px;
@@ -33,6 +37,7 @@
           align-items: center;
           justify-content: center;
           text-align: center;
+          margin: 25px 2px;
 
           .img-holder {
             height: 250px;
@@ -43,18 +48,45 @@
             margin-bottom: 10px;
           }
 
-          .img1 {
+          // new item section images
+          .new-item1 {
             background-image: url(../assets/images/concha.jpg);
           }
-          .img2 {
+          .new-item2 {
             background-image: url(../assets/images/donuts.jpg);
           }
-          .img3 {
+          .new-item3 {
             background-image: url(../assets/images/jes-cake.jpg);
+          }
+
+          // main item section images
+          .item1 {
+            background-image: url(../assets/images/fruit-cupcake.jpg);
+          }
+
+          .item2 {
+            background-image: url(../assets/images/small-choc.jpg);
+          }
+
+          .item3 {
+            background-image: url(../assets/images/strwb-choc-cake.jpg);
+          }
+
+          .item4 {
+            background-image: url(../assets/images/tira-cake.jpg);
+          }
+
+          .item5 {
+            background-image: url(../assets/images/trp-choc-cake.jpg);
+          }
+
+          .item6 {
+            background-image: url(../assets/images/velvet-cupcake.jpg);
           }
 
           p {
             font-size: 13px;
+            border-bottom: none;
           }
 
           .button {

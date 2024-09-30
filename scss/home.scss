@@ -35,6 +35,8 @@
 
       p {
         font-size: 20px;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
       }
 
       .items-box {
@@ -71,7 +73,9 @@
 
           p {
             font-size: 13px;
+            border-bottom: none;
           }
+
           .button {
             display: flex;
             align-items: center;
