@@ -242,8 +242,40 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.about h1 {
+.about {
+  min-height: 100vh;
+  padding: 40px;
+  background-image: linear-gradient(rgba(119, 119, 119, 0.425), rgba(119, 119, 119, 0.425)), url(../assets/images/ingredients.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.about section .container {
+  width: 60%;
+}
+.about section .container h1 {
   font-family: merri-reg;
+}
+.about section img {
+  width: 40%;
+}
+.about .first-section .container {
+  margin-right: 20px;
+}
+.about .second-section {
+  text-align: right;
+}
+.about .second-section .container {
+  margin-left: 20px;
+}
+.about .third-section img {
+  width: 20%;
+  margin-right: 150px;
 }
 
 .contact h1 {
