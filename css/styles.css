@@ -164,9 +164,6 @@ footer {
   width: 1000px;
   font-family: merri-reg;
 }
-.products .item-section .item-section-holder h1 {
-  font-family: merri-reg;
-}
 .products .item-section .item-section-holder p {
   border-bottom: 2px solid black;
   font-size: 20px;
@@ -261,6 +258,14 @@ footer {
 .about section .container h1 {
   font-family: merri-reg;
 }
+.about section .container h2 {
+  font-family: merri-reg;
+  font-size: 20px;
+}
+.about section .container p {
+  font-family: merri-reg;
+  font-size: 16px;
+}
 .about section img {
   width: 40%;
 }
@@ -278,8 +283,19 @@ footer {
   margin-right: 150px;
 }
 
+.contact {
+  padding: 40px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(187, 187, 187, 0.603), rgba(80, 80, 80, 0.411)), url(../assets/images/flour-heart.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+}
 .contact h1 {
   font-family: merri-reg;
+}
+.contact p {
+  font-family: merri-reg;
+  font-size: 16px;
 }
 
 .extra h1 {

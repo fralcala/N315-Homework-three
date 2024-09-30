@@ -1,5 +1,18 @@
 .contact {
+  padding: 40px;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(187, 187, 187, 0.603),
+      rgba(80, 80, 80, 0.411)
+    ),
+    url(../assets/images/flour-heart.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
   h1 {
     font-family: merri-reg;
+  }
+  p {
+    font-family: merri-reg;
+    font-size: 16px;
   }
 }
