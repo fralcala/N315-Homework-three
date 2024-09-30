@@ -1,0 +1,25 @@
+.info-updates {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: merri-reg;
+
+  h1 {
+    font-family: merri-reg;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .info {
+    margin-bottom: 30px;
+  }
+
+  img {
+    height: 400px;
+  }
+}
